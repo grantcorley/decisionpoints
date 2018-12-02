@@ -19,6 +19,11 @@ h1, h2, h3 {
  * Examples taken from http://sass-lang.com/guide
  *
  */
+footer#colophon {
+  background-color: black;
+  min-height: 300px;
+}
+
 /*
  * Main styles, written in SCSS.
  * Examples taken from http://sass-lang.com/guide
