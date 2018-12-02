@@ -1,0 +1,73 @@
+ /*!
+Theme name: Decsion Points
+Version: 1.0
+Template: twentyseventeen
+Author: Grant Corley
+*/
+/* This is the master SCSS file
+ * from which all other SCSS files will be called.
+ * Examples taken from http://sass-lang.com/guide
+ */
+@import url("../twentyseventeen/style.css");
+/*
+ * Variables and optional mixins, written in SCSS.
+ * Examples taken from http://sass-lang.com/guide
+ *
+ */
+/*
+ * Main styles, written in SCSS.
+ * Examples taken from http://sass-lang.com/guide
+ *
+ *
+ */
+body {
+  font: 100% Helvetica, sans-serif;
+  color: black;
+  border: 1px solid eggplant;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+.message, .success, .error, .warning {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.success {
+  border-color: green;
+}
+
+.error {
+  border-color: red;
+}
+
+.warning {
+  border-color: yellow;
+}
+
+.container {
+  width: 100%;
+}
+
+article[role="main"] {
+  float: left;
+  width: 62.5%;
+}
+
+aside[role="complimentary"] {
+  float: right;
+  width: 31.25%;
+}

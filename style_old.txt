@@ -1,0 +1,7 @@
+/*
+Theme name: Decsion Points
+Version: 1.0
+Template: twentyseventeen
+*/
+
+@import url('../twentyseventeen/style.css');

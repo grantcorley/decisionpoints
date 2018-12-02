@@ -1,0 +1,17 @@
+{
+  "name": "decisionpoints",
+  "version": "1.0.0",
+  "description": "package for Decision Points Authors LLC website",
+  "main": "index.php",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grantcorley/decisionpoints"
+  },
+  "author": "Grant Corley",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}
