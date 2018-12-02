@@ -19,6 +19,7 @@ h1, h2, h3 {
  * Examples taken from http://sass-lang.com/guide
  *
  */
+/* navigation */
 footer#colophon {
   background-color: black;
   min-height: 300px;
