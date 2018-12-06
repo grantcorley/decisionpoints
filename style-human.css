@@ -20,9 +20,19 @@ h1, h2, h3 {
  *
  */
 /* navigation */
+@media screen and (min-width: 48em) {
+  .navigation-top {
+    position: relative;
+  }
+}
+.has-header-image .custom-header-media img, .has-header-video .custom-header-media video, .has-header-video .custom-header-media iframe {
+  position: static;
+}
+
 footer#colophon {
   background-color: black;
   min-height: 300px;
+  color: white !important;
 }
 
 /*

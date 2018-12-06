@@ -1,0 +1,12 @@
+@media screen and (min-width: 48em){
+.navigation-top {
+  position: relative;
+}
+
+}
+
+
+
+.has-header-image .custom-header-media img, .has-header-video .custom-header-media video, .has-header-video .custom-header-media iframe {
+   position: static;
+}
