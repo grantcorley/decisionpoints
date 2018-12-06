@@ -22,10 +22,12 @@
 				<div class="container">
 	  <div class="row">
 	    <div class="col-sm">
-	      One of three columns
+	     <a href="https://www.facebook.com/Decision-Points-CBT-1601296003455451/?ref=aymt_homepage_panel">
+				 <i class="icon fab fa-facebook-square"></i>
+			 </a>
 	    </div>
 	    <div class="col-sm">
-	      One of three columns
+			column 2
 	    </div>
 	    <div class="col-sm">
 	      One of three columns

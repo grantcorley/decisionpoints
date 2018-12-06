@@ -3,4 +3,26 @@ footer#colophon{
   background-color: black;
   min-height: 300px;
   color:white !important;
+
+  .icon{
+    font-size:3em;
+  }
+
+  a {
+   color: white;
+   &:visited {
+     color: white;
+   }
+   &:hover {
+     color: #cccccc;
+   }
+   &:active {
+     color: #cccccc;
+   }
+
+   cursor: pointer;
+
+ }
+
+
 }

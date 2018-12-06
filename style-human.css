@@ -59,3 +59,19 @@ footer#colophon {
   min-height: 300px;
   color: white !important;
 }
+footer#colophon .icon {
+  font-size: 3em;
+}
+footer#colophon a {
+  color: white;
+  cursor: pointer;
+}
+footer#colophon a:visited {
+  color: white;
+}
+footer#colophon a:hover {
+  color: #cccccc;
+}
+footer#colophon a:active {
+  color: #cccccc;
+}
