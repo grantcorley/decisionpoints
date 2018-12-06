@@ -1,6 +1,6 @@
  /*!
-Theme name: Decsion Points
+Theme name: Decision Points
 Version: 1.0
 Template: twentyseventeen
 Author: Grant Corley
-*/@import url("../twentyseventeen/style.css");h1,h2,h3{font-family:'Oswald', serif}@media screen and (min-width: 48em){.navigation-top{position:relative}}.has-header-image .custom-header-media img,.has-header-video .custom-header-media video,.has-header-video .custom-header-media iframe{position:static}footer#colophon{background-color:black;min-height:300px;color:white !important}
+*/@import url("../twentyseventeen/style.css");h1,h2,h3,h4{color:#f63}h1,h2,h3{font-family:'Oswald', serif}@media screen and (min-width: 48em){.site-navigation-fixed.navigation-top{position:relative}}#masthead h1.logo{color:#f63;text-align:center}#masthead .main-navigation ul{background:#fff;list-style:none;margin:0;padding:0 1.5em;text-align:center;text-transform:uppercase}.has-header-image .custom-header-media img,.has-header-video .custom-header-media video,.has-header-video .custom-header-media iframe{position:static}footer#colophon{background-color:black;min-height:300px;color:white !important}

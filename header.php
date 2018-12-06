@@ -28,7 +28,9 @@
 
 	<header id="masthead" class="site-header" role="banner">
 
-
+<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+	<h1 class="logo">logo here?</h1>
+</a>
 
 		<?php if ( has_nav_menu( 'top' ) ) : ?>
 			<div class="navigation-top">
@@ -45,6 +47,7 @@
 
 
 <!-- ======================== -->
+<?php if ( is_front_page() ) : ?>
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -93,6 +96,8 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+
+		<?php endif; ?>
 
 <!-- ======================== -->
 

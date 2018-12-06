@@ -1,5 +1,5 @@
  /*!
-Theme name: Decsion Points
+Theme name: Decision Points
 Version: 1.0
 Template: twentyseventeen
 Author: Grant Corley
@@ -9,23 +9,48 @@ Author: Grant Corley
  * Examples taken from http://sass-lang.com/guide
  */
 @import url("../twentyseventeen/style.css");
-/*typography*/
-h1, h2, h3 {
-  font-family: 'Oswald', serif;
-}
-
 /*
  * Variables and optional mixins, written in SCSS.
  * Examples taken from http://sass-lang.com/guide
  *
  */
+/*
+ * Main styles, written in SCSS.
+ * Examples taken from http://sass-lang.com/guide
+ *
+ *
+ */
+h1, h2, h3, h4 {
+  color: #ff6633;
+}
+
+/*typography*/
+h1, h2, h3 {
+  font-family: 'Oswald', serif;
+}
+
 /* navigation */
 @media screen and (min-width: 48em) {
-  .navigation-top {
+  .site-navigation-fixed.navigation-top {
     position: relative;
   }
 }
-.has-header-image .custom-header-media img, .has-header-video .custom-header-media video, .has-header-video .custom-header-media iframe {
+#masthead h1.logo {
+  color: #ff6633;
+  text-align: center;
+}
+#masthead .main-navigation ul {
+  background: #fff;
+  list-style: none;
+  margin: 0;
+  padding: 0 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.has-header-image .custom-header-media img,
+.has-header-video .custom-header-media video,
+.has-header-video .custom-header-media iframe {
   position: static;
 }
 
@@ -34,66 +59,3 @@ footer#colophon {
   min-height: 300px;
   color: white !important;
 }
-
-/*
- * Main styles, written in SCSS.
- * Examples taken from http://sass-lang.com/guide
- *
- *
- */
-/*
-body {
-  font: 100% $font-stack;
-  color: $primary-color;
-  border:1px solid red;
-}
-
-nav {
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  li { display: inline-block; }
-
-  a {
-    display: block;
-    padding: 6px 12px;
-    text-decoration: none;
-  }
-}
-
-.message {
-  border: 1px solid #ccc;
-  padding: 10px;
-  color: #333;
-}
-
-.success {
-  @extend .message;
-  border-color: green;
-}
-
-.error {
-  @extend .message;
-  border-color: red;
-}
-
-.warning {
-  @extend .message;
-  border-color: yellow;
-}
-
-.container { width: 100%; }
-
-article[role="main"] {
-  float: left;
-  width: 600px / 960px * 100%;
-}
-
-aside[role="complimentary"] {
-  float: right;
-  width: 300px / 960px * 100%;
-}
-*/

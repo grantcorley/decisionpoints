@@ -1,12 +1,35 @@
 @media screen and (min-width: 48em){
-.navigation-top {
-  position: relative;
-}
+
+
+  .site-navigation-fixed.navigation-top {
+    position: relative;
+  }
 
 }
 
+#masthead{
+
+  h1.logo{
+    // border:2px solid purple;
+    color:$primary;
+    text-align: center;
+  }
+
+  .main-navigation ul {
+    background: #fff;
+    list-style: none;
+    margin: 0;
+    padding: 0 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+}
 
 
-.has-header-image .custom-header-media img, .has-header-video .custom-header-media video, .has-header-video .custom-header-media iframe {
+
+.has-header-image .custom-header-media img,
+.has-header-video .custom-header-media video,
+.has-header-video .custom-header-media iframe {
    position: static;
 }
