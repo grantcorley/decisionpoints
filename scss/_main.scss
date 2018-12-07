@@ -8,3 +8,51 @@
 h1, h2, h3, h4{
   color: $primary;
 }
+
+
+#main h1.entry-title{
+  font-size:2.875rem;
+}
+
+@media only screen and (max-width: 478px) {
+  #main h1.entry-title {
+      font-size: 1.6rem;
+  }
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+  h1.elevator-pitch{
+    display: none;
+  }
+
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+ /*hide below 768*/
+  h1.elevator-pitch{
+    display: block;
+    width: 80%;
+    text-align: center;
+    /* border: 1px dotted red; */
+    margin: 0 auto;
+    padding-top: .5em;
+  }
+
+}
+
+
+.page.page-one-column .entry-header,
+.twentyseventeen-front-page.page-one-column .entry-header,
+.archive.page-one-column:not(.has-sidebar) .page-header {
+    margin-bottom: 0;
+  }
+
+  .entry-header .entry-title {
+    margin-bottom: 0;
+}

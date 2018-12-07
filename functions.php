@@ -1,5 +1,8 @@
 <?php
 
+
+
+
 //enqueue custom scripts, fonts, etc
 add_action( 'wp_enqueue_scripts','custom_scripts' );
 
@@ -22,5 +25,23 @@ function custom_scripts(){
 
 // Register custom navigation walker
 require_once('wp_bootstrap_navwalker.php');
+
+
+
+add_action('after_setup_theme','mychildtheme_setup');
+
+
+function mychildtheme_setup(){
+
+
+			add_theme_support('post-thumbnails');
+			set_post_thumbnail_size(1038, 576, true);
+
+			add_image_size('featured', 2000, 650, true);
+
+
+
+}
+
 
 ?>

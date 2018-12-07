@@ -1,3 +1,7 @@
+.menu-toggle:focus {
+    outline: none;
+}
+
 @media screen and (min-width: 48em){
 
 
@@ -7,6 +11,10 @@
 
 }
 
+.custom-header{
+  display:none;
+}
+
 #masthead{
 
   h1.logo{
@@ -14,6 +22,22 @@
     color:$primary;
     text-align: center;
   }
+
+  a {
+   text-decoration: none;
+   &:visited {
+     text-decoration: none;
+   }
+   &:hover {
+     text-decoration: none;
+   }
+   &:active {
+     text-decoration: none;
+   }
+
+   cursor: pointer;
+
+ }
 
   .main-navigation ul {
     background: #fff;
