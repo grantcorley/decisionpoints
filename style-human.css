@@ -8,6 +8,7 @@ Author: Grant Corley
  * from which all other SCSS files will be called.
  * Examples taken from http://sass-lang.com/guide
  */
+/*  6pm 12/08/18*/
 @import url("../twentyseventeen/style.css");
 /*
  * Variables and optional mixins, written in SCSS.
@@ -24,8 +25,17 @@ h1, h2, h3, h4 {
   color: #ff6633;
 }
 
+.entry-content ul li {
+  padding-bottom: .65em;
+}
+
 #main h1.entry-title {
   font-size: 2.875rem;
+}
+
+.entry-header .entry-title {
+  margin-bottom: 0;
+  letter-spacing: .0em !important;
 }
 
 @media only screen and (max-width: 478px) {
@@ -36,6 +46,14 @@ h1, h2, h3, h4 {
 @media only screen and (max-width: 767px) {
   h1.elevator-pitch {
     display: none;
+  }
+
+  h1.entry-title,
+  h2.entry-title,
+  h1.page-title {
+    font-size: 2.1rem !important;
+    letter-spacing: .035em !important;
+    padding-bottom: .5em;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -48,6 +66,14 @@ h1, h2, h3, h4 {
     margin: 0 auto;
     padding-top: .5em;
   }
+
+  h1.entry-title,
+  h2.entry-title,
+  h1.page-title {
+    font-size: 2.875rem !important;
+    letter-spacing: .035em !important;
+    padding-bottom: .5em;
+  }
 }
 .page.page-one-column .entry-header,
 .twentyseventeen-front-page.page-one-column .entry-header,
@@ -59,6 +85,20 @@ h1, h2, h3, h4 {
   margin-bottom: 0;
 }
 
+@media screen and (min-width: 48em) {
+  .site-content {
+    padding-bottom: 5.5em;
+    padding-top: 3em;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .panel-content .wrap {
+    border: 0px dotted red;
+    padding-bottom: 0em;
+    padding-top: 3em;
+  }
+}
 /*typography*/
 h1, h2, h3 {
   font-family: 'Oswald', serif;
@@ -78,6 +118,9 @@ h1, h2, h3 {
   display: none;
 }
 
+#masthead {
+  text-align: center;
+}
 #masthead h1.logo {
   color: #ff6633;
   text-align: center;
@@ -110,10 +153,27 @@ h1, h2, h3 {
   position: static;
 }
 
+#main-logo {
+  width: 300px;
+  height: auto;
+}
+
+@media screen and (min-width: 900px) {
+  #main-logo {
+    width: 400px;
+    height: auto;
+  }
+}
 footer#colophon {
+  text-align: center;
+  padding-top: 2em;
   background-color: black;
   min-height: 300px;
   color: white !important;
+}
+footer#colophon #logo-footer {
+  width: 300px;
+  height: auto;
 }
 footer#colophon .icon {
   font-size: 3em;
@@ -130,4 +190,11 @@ footer#colophon a:hover {
 }
 footer#colophon a:active {
   color: #cccccc;
+}
+
+.footer-details {
+  padding-top: 3em;
+}
+.footer-details .col-sm {
+  padding-bottom: 2em;
 }

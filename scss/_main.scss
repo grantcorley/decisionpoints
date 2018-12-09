@@ -9,10 +9,20 @@ h1, h2, h3, h4{
   color: $primary;
 }
 
+.entry-content ul li{
+  padding-bottom:.65em;
+}
 
 #main h1.entry-title{
   font-size:2.875rem;
 }
+
+.entry-header .entry-title {
+  margin-bottom: 0;
+  letter-spacing: .0em !important;
+}
+
+
 
 @media only screen and (max-width: 478px) {
   #main h1.entry-title {
@@ -28,12 +38,20 @@ h1, h2, h3, h4{
     display: none;
   }
 
+  h1.entry-title,
+  h2.entry-title,
+  h1.page-title {
+      font-size: 2.1rem !important;
+       letter-spacing: .035em !important;
+       padding-bottom: .5em;
+  }
+
 }
 
 
 
-
 @media only screen and (min-width: 768px) {
+
  /*hide below 768*/
   h1.elevator-pitch{
     display: block;
@@ -43,6 +61,15 @@ h1, h2, h3, h4{
     margin: 0 auto;
     padding-top: .5em;
   }
+
+
+h1.entry-title,
+h2.entry-title,
+h1.page-title {
+    font-size: 2.875rem !important;
+     letter-spacing: .035em !important;
+     padding-bottom: .5em;
+}
 
 }
 
@@ -55,4 +82,24 @@ h1, h2, h3, h4{
 
   .entry-header .entry-title {
     margin-bottom: 0;
+}
+
+
+
+
+@media screen and (min-width: 48em){
+
+  .site-content {
+      padding-bottom: 5.5em;
+      padding-top: 3em;
+      padding-left:0;
+      padding-right:0;
+  }
+
+  .panel-content .wrap {
+      border:0px dotted red;
+      padding-bottom: 0em;
+      padding-top: 3em;
+  }
+
 }

@@ -17,6 +17,8 @@
 
 #masthead{
 
+  text-align: center;
+
   h1.logo{
     // border:2px solid purple;
     color:$primary;
@@ -56,4 +58,14 @@
 .has-header-video .custom-header-media video,
 .has-header-video .custom-header-media iframe {
    position: static;
+}
+
+
+#main-logo{
+  width:300px;
+  height:auto;
+}
+
+@media screen and (min-width: 900px){
+  #main-logo{ width: 400px; height:auto; }
 }

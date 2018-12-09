@@ -29,8 +29,9 @@
 	<header id="masthead" class="site-header" role="banner">
 
 <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-	<h1 class="logo">logo here?</h1>
-</a>
+	<a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+	   <img id="main-logo"  src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-main.svg " width="456" height="193" class="masthead-logo" alt="Southeast CDC" />
+	 </a>
 
 		<?php if ( has_nav_menu( 'top' ) ) : ?>
 			<div class="navigation-top">
@@ -61,7 +62,7 @@
 	        </ol>
 	        <div class="carousel-inner">
 	          <div class="carousel-item">
-	            <img class="first-slide" src="<?php echo get_stylesheet_directory_uri(); ?>/images/test02.jpg" alt="First slide" width="2950" height="1000">
+	            <img class="first-slide" src="<?php echo get_stylesheet_directory_uri(); ?>/images/class_frongpage_02.jpg" alt="First slide" width="2950" height="1000">
 	            <div class="container">
 	              <div class="carousel-caption text-left">
 	                <!-- <h1>Decision Points is an open-group cognitive-behavioral intervention program that was published in 2012 and released nationally in 2015. Decision Points has been pilot tested and implemented with youth & adult groups in a range of correctional settings. </h1>
@@ -71,7 +72,7 @@
 	            </div>
 	          </div>
 	          <div class="carousel-item active">
-	            <img class="second-slide" src="<?php echo get_stylesheet_directory_uri(); ?>/images/test02.jpg" alt="First slide" width="2950" height="1000">
+	            <img class="second-slide" src="<?php echo get_stylesheet_directory_uri(); ?>/images/class_frontpage_01.jpg" alt="First slide" width="2950" height="1000">
 	            <div class="container">
 	              <div class="carousel-caption">
 	                <!-- <h1>Another example headline.</h1>
@@ -81,7 +82,7 @@
 	            </div>
 	          </div>
 	          <div class="carousel-item">
-	            <img class="third-slide" src="<?php echo get_stylesheet_directory_uri(); ?>/images/test02.jpg" alt="First slide" width="2950" height="1000">
+	            <img class="third-slide" src="<?php echo get_stylesheet_directory_uri(); ?>/images/class_frongpage_03.jpg" alt="First slide" width="2950" height="1000">
 	            <div class="container">
 	              <div class="carousel-caption text-right">
 	                <!-- <h1>One more for good measure.</h1>

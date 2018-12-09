@@ -1,5 +1,14 @@
 footer#colophon{
 
+  text-align: center;
+  padding-top:2em;
+
+  #logo-footer{
+    width:300px;
+    height: auto;
+
+  }
+
   background-color: black;
   min-height: 300px;
   color:white !important;
@@ -26,3 +35,12 @@ footer#colophon{
 
 
 }
+
+.footer-details{
+  padding-top:3em;
+
+  .col-sm{
+    padding-bottom:2em;
+  }
+
+}//end .footer-details
