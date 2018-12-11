@@ -53,7 +53,7 @@
 
 		 <?php get_search_form( true ) ?>
 
-		 <p class="legal">&copy; <?php echo date("Y"); ?> Decision Points Authors LLC &nbsp; &nbsp; <span style="color:gray">|</span> &nbsp; &nbsp; <a href="http://www.new.decisionpointsprogram.com/privacy-policy/">Privacy Policy</a></p>
+		 <p class="legal">&copy; <?php echo date("Y"); ?> Decision Points Authors LLC &nbsp; &nbsp; <span style="color:#333333">|</span> &nbsp; &nbsp; <a href="http://www.new.decisionpointsprogram.com/privacy-policy/">Privacy Policy</a></p>
 
 	</div>
 

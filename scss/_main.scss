@@ -9,6 +9,10 @@
   color: $primary;
 }
 
+.no-margin-bottom{
+  margin-bottom:0;
+}
+
 h1, h2, h3, h4{
   color: $primary;
 }
@@ -29,6 +33,49 @@ h1, h2, h3, h4{
   margin-bottom: 0;
   letter-spacing: .0em !important;
 }
+
+.orange-top{
+  border-top:2px solid $primary;
+}
+
+$link: #336699;
+
+p{
+  a {
+   color: $gray;
+
+   &:visited {
+     color: $gray;
+   }
+   &:hover {
+     color: darker( $gray, 10%) !important;
+   }
+   &:active {
+     color: darker( $gray, 10%) !important;
+   }
+
+   cursor: pointer;
+
+  }
+}
+
+article{
+
+  ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: $gray; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+}//end article
+
 
 
 
@@ -70,7 +117,7 @@ h1, h2, h3, h4{
     // padding-top: .5em;
     padding: .75em 2em 1em 2em;
     color:white;
-    background-color: black;
+    background-color: $gray;
     width:100%;
   }
 
@@ -105,6 +152,10 @@ h1.page-title{
 }
 
 
+.hide-on-mobile{
+  display:none;
+}
+
 @media screen and (min-width: 600px){
 
   h1.cycle-icon,
@@ -130,6 +181,10 @@ h1.page-title{
       border:0px dotted red;
       padding-bottom: 0em;
       padding-top: 3em;
+  }
+
+  .hide-on-mobile{
+    display:block;
   }
 
 

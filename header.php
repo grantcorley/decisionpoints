@@ -102,7 +102,7 @@
 	        </a>
 	      </div>
 
-				<h1 class="elevator-pitch"><span class="primary-color">Decision Points</span> is an open-group cognitive-behavioral intervention program, pilot tested and implemented with youth &amp; adult groups in a range of correctional settings.</h1>
+				<h1 class="elevator-pitch"><span>Decision Points</span> is an open-group cognitive-behavioral intervention program that was published in 2012 and released nationally in 2015.</h1>
 
 			<?php endif; ?>
 

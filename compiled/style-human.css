@@ -25,6 +25,10 @@ Author: Grant Corley
   color: #ff6633;
 }
 
+.no-margin-bottom {
+  margin-bottom: 0;
+}
+
 h1, h2, h3, h4 {
   color: #ff6633;
 }
@@ -44,6 +48,43 @@ h1, h2, h3, h4 {
 .entry-header .entry-title {
   margin-bottom: 0;
   letter-spacing: .0em !important;
+}
+
+.orange-top {
+  border-top: 2px solid #ff6633;
+}
+
+p a {
+  color: slategray;
+  cursor: pointer;
+}
+p a:visited {
+  color: slategray;
+}
+p a:hover {
+  color: darker(slategray, 10%) !important;
+}
+p a:active {
+  color: darker(slategray, 10%) !important;
+}
+
+article ul {
+  list-style: none;
+  /* Remove default bullets */
+}
+article ul li::before {
+  content: "\2022";
+  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: slategray;
+  /* Change the color */
+  font-weight: bold;
+  /* If you want it to be bold */
+  display: inline-block;
+  /* Needed to add space between the bullet and the text */
+  width: 1em;
+  /* Also needed for space (tweak if needed) */
+  margin-left: -1em;
+  /* Also needed for space (tweak if needed) */
 }
 
 @media only screen and (max-width: 478px) {
@@ -73,7 +114,7 @@ h1, h2, h3, h4 {
     margin: 0 auto;
     padding: .75em 2em 1em 2em;
     color: white;
-    background-color: black;
+    background-color: slategray;
     width: 100%;
   }
 
@@ -102,6 +143,10 @@ h1.page-title {
   margin-bottom: .5em !important;
 }
 
+.hide-on-mobile {
+  display: none;
+}
+
 @media screen and (min-width: 600px) {
   h1.cycle-icon,
   h2.cycle-icon {
@@ -122,6 +167,10 @@ h1.page-title {
     border: 0px dotted red;
     padding-bottom: 0em;
     padding-top: 3em;
+  }
+
+  .hide-on-mobile {
+    display: block;
   }
 }
 .entry-content a,
@@ -232,7 +281,7 @@ h1, h2, h3 {
 footer#colophon {
   text-align: center;
   padding-top: 2em;
-  background-color: black;
+  background-color: slategray;
   min-height: 300px;
   color: white !important;
 }
