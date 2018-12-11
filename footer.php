@@ -22,29 +22,39 @@
 
 
 				<div class="container footer-details">
-	  <div class="row">
 
-	    <div class="col-sm">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-					<a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-						 <img id="logo-footer"  src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-footer.svg " width="456" height="193" class="masthead-logo" alt="Southeast CDC" />
-					 </a>
-	    </div>
 
-	    <div class="col-sm">
-				<a href="https://www.facebook.com/Decision-Points-CBT-1601296003455451/?ref=aymt_homepage_panel">
-					<i class="icon fab fa-facebook-square"></i>
-				</a>
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+						<a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+							 <img id="logo-footer"  src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-footer.svg " width="456" height="193" class="masthead-logo" alt="Southeast CDC" />
+						 </a>
 
-				<a href="https://twitter.com/DecisionPointsP">
-				 <i class="icon fab fa-twitter-square"></i>
-			 </a>
-			<!-- 618 Wells Court, Unit 402, <br/>Clearwater, FL  33756 -->
-	    </div>
-	    <div class="col-sm">
-	     <a href="mailto:decisionpointsprogram@gmail.com">decisionpointsprogram@gmail.com</a>
-	    </div>
+
+		<!-- <div class="row"> -->
+
+			<!-- <div class="col-md"></div>
+	    <div class="col-md"></div> -->
+	    <!-- </div> -->
+
+
 	  </div>
+
+		<div class="footer-social-icons">
+			 <a href="https://www.facebook.com/Decision-Points-CBT-1601296003455451/?ref=aymt_homepage_panel">
+				<i class="icon fab fa-facebook-square"></i>
+			</a>
+
+			<a href="https://twitter.com/DecisionPointsP">
+			 <i class="icon fab fa-twitter-square"></i>
+		 </a>
+	 </div> <!-- end footer social icons -->
+
+	 <br/>
+
+		 <?php get_search_form( true ) ?>
+
+		 <p class="legal">&copy; <?php echo date("Y"); ?> Decision Points Authors LLC &nbsp; &nbsp; <span style="color:gray">|</span> &nbsp; &nbsp; <a href="http://www.new.decisionpointsprogram.com/privacy-policy/">Privacy Policy</a></p>
+
 	</div>
 
 				<?php

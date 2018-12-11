@@ -3,6 +3,10 @@ footer#colophon{
   text-align: center;
   padding-top:2em;
 
+  .site-info{
+    display:none;
+  }
+
   #logo-footer{
     width:300px;
     height: auto;
@@ -18,7 +22,7 @@ footer#colophon{
   }
 
   a {
-   color: white;
+   color: white;;
    &:visited {
      color: white;
    }
@@ -44,3 +48,42 @@ footer#colophon{
   }
 
 }//end .footer-details
+
+.footer-social-icons{
+  padding-top:1em;
+  padding-bottom:0em;
+
+}
+
+
+p.legal{
+  font-size: .85em;
+padding-top: 2em;
+}
+
+.search-form .search-submit {
+    // background-color: $primary;
+}
+
+form.search-form{
+  width:50%;
+  margin:0 auto;
+}
+
+.site-footer .wrap {
+    padding-bottom: 1.5em;
+    padding-top:0;
+}
+
+.footer-details {
+    padding-top: 2em;
+}
+
+
+
+@media screen and (max-width: 768px){
+  form.search-form{
+    width:90%;
+    margin:0 auto;
+  }
+}

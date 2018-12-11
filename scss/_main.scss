@@ -5,12 +5,20 @@
  *
  */
 
+.primary-color{
+  color: $primary;
+}
+
 h1, h2, h3, h4{
   color: $primary;
 }
 
 .entry-content ul li{
   padding-bottom:.65em;
+}
+
+.inset-photo{
+  padding-bottom:1em;
 }
 
 #main h1.entry-title{
@@ -55,11 +63,15 @@ h1, h2, h3, h4{
  /*hide below 768*/
   h1.elevator-pitch{
     display: block;
-    width: 80%;
+    // width: 80%;
     text-align: center;
     /* border: 1px dotted red; */
     margin: 0 auto;
-    padding-top: .5em;
+    // padding-top: .5em;
+    padding: .75em 2em 1em 2em;
+    color:white;
+    background-color: black;
+    width:100%;
   }
 
 
@@ -85,6 +97,24 @@ h1.page-title {
 }
 
 
+h1.entry-title,
+h2.entry-title,
+h1.page-title{
+  padding-bottom:0;
+  margin-bottom:.5em !important;
+}
+
+
+@media screen and (min-width: 600px){
+
+  h1.cycle-icon,
+  h2.cycle-icon{
+    background-image: url("images/cycle-icon.svg");
+    background-repeat: no-repeat;
+    padding-left:1.6em;
+  }
+
+}
 
 
 @media screen and (min-width: 48em){
@@ -102,4 +132,23 @@ h1.page-title {
       padding-top: 3em;
   }
 
+
+
+}
+
+
+// remove the underline from all anchor tags
+.entry-content a,
+.entry-summary a,
+.widget a,
+.site-footer .widget-area a,
+.posts-navigation a,
+.widget_authors a strong,
+.entry-content a:hover,
+.entry-summary a:hover,
+.widget a:hover,
+.site-footer .widget-area a:hover,
+.posts-navigation a:hover,
+.widget_authors a strong:hover {
+    box-shadow: none;
 }
