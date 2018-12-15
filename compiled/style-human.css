@@ -22,7 +22,7 @@ Author: Grant Corley
  *
  */
 .primary-color {
-  color: #ff6633;
+  color: #ed7d31;
 }
 
 .no-margin-bottom {
@@ -30,7 +30,7 @@ Author: Grant Corley
 }
 
 h1, h2, h3, h4 {
-  color: #ff6633;
+  color: #ed7d31;
 }
 
 .entry-content ul li {
@@ -51,7 +51,7 @@ h1, h2, h3, h4 {
 }
 
 .orange-top {
-  border-top: 2px solid #ff6633;
+  border-top: 2px solid #ed7d31;
 }
 
 p a {
@@ -85,6 +85,11 @@ article ul li::before {
   /* Also needed for space (tweak if needed) */
   margin-left: -1em;
   /* Also needed for space (tweak if needed) */
+}
+
+aside.dp-authors {
+  background-image: url("images/gravel-bg.jpg");
+  padding: 2em 2.6em;
 }
 
 @media only screen and (max-width: 478px) {
@@ -222,7 +227,7 @@ h1, h2, h3 {
   text-align: center;
 }
 #masthead h1.logo {
-  color: #ff6633;
+  color: #ed7d31;
   text-align: center;
 }
 #masthead a {
@@ -271,7 +276,7 @@ h1, h2, h3 {
 @media screen and (min-width: 48em) {
   .main-navigation li li:hover,
   .main-navigation li li.focus {
-    background: #ff6633;
+    background: #ed7d31;
   }
 }
 .sf-sub-indicator {
