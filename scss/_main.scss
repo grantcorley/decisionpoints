@@ -76,8 +76,13 @@ ul li::before {
 
 }//end article
 
+article{
+  margin-bottom:2.6em;
+}
 
-aside.dp-authors {
+aside.dp-authors,
+.emphasis-bg
+ {
   background-image: url("images/gravel-bg.jpg");
   padding: 2em 2.6em;
 }
@@ -192,7 +197,17 @@ h1.page-title{
   }
 
 
+}
 
+
+.entry-content a img,
+.widget a img {
+    -webkit-box-shadow: 0 0 0 2px #fff !important;
+    box-shadow: 0 0 0 2px #fff !important;
+}
+
+.pipe{
+  color: lightgray;
 }
 
 

@@ -65,9 +65,7 @@
 	            <img class="first-slide" src="<?php echo get_stylesheet_directory_uri(); ?>/images/class_frongpage_02.jpg" alt="First slide" width="2950" height="1000">
 	            <div class="container">
 	              <div class="carousel-caption text-left">
-	                <!-- <h1>Decision Points is an open-group cognitive-behavioral intervention program that was published in 2012 and released nationally in 2015. Decision Points has been pilot tested and implemented with youth & adult groups in a range of correctional settings. </h1>
-	                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-	                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p> -->
+	                <h1>In-Group Practice</h1>
 	              </div>
 	            </div>
 	          </div>
@@ -75,9 +73,7 @@
 	            <img class="second-slide" src="<?php echo get_stylesheet_directory_uri(); ?>/images/class_frontpage_01.jpg" alt="First slide" width="2950" height="1000">
 	            <div class="container">
 	              <div class="carousel-caption">
-	                <!-- <h1>Another example headline.</h1>
-	                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-	                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p> -->
+	                 <h1>Graduation</h1>
 	              </div>
 	            </div>
 	          </div>
@@ -85,9 +81,7 @@
 	            <img class="third-slide" src="<?php echo get_stylesheet_directory_uri(); ?>/images/class_frongpage_03.jpg" alt="First slide" width="2950" height="1000">
 	            <div class="container">
 	              <div class="carousel-caption text-right">
-	                <!-- <h1>One more for good measure.</h1>
-	                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-	                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p> -->
+	                 <h1>Written Feedback</h1>
 	              </div>
 	            </div>
 	          </div>

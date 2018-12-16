@@ -87,7 +87,12 @@ article ul li::before {
   /* Also needed for space (tweak if needed) */
 }
 
-aside.dp-authors {
+article {
+  margin-bottom: 2.6em;
+}
+
+aside.dp-authors,
+.emphasis-bg {
   background-image: url("images/gravel-bg.jpg");
   padding: 2em 2.6em;
 }
@@ -178,6 +183,16 @@ h1.page-title {
     display: block;
   }
 }
+.entry-content a img,
+.widget a img {
+  -webkit-box-shadow: 0 0 0 2px #fff !important;
+  box-shadow: 0 0 0 2px #fff !important;
+}
+
+.pipe {
+  color: lightgray;
+}
+
 .entry-content a,
 .entry-summary a,
 .widget a,
@@ -212,6 +227,14 @@ h1, h2, h3 {
 .menu-main-container {
   font-family: "Oswald", sans-serif;
   font-size: 1.25em;
+}
+
+.carousel-caption h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 4em;
+  background-color: rgba(113, 128, 143, 0.4);
 }
 
 @media screen and (min-width: 48em) {
