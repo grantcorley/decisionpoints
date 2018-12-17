@@ -8,17 +8,26 @@
 }
 
 .carousel-caption h1{
-  color:white;
-  text-align: center;
-  font-family: 'Pacifico', cursive;
-  font-size: 4em;
-  background-color: rgba(113,128,143,0.4);
+  display:none;
+  // background-color: rgba(113,128,143,0.4);
+
 }
+
+
 
 @media screen and (min-width: 48em){
 
   .site-navigation-fixed.navigation-top {
     position: relative;
+  }
+
+  .carousel-caption h1{
+    display: block;
+    color:white;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    text-shadow: 2px 3px #000000;
   }
 
 }
